@@ -3,185 +3,81 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Fler Förfrågningar – säljande hemsidor som ger samtal & affärer</title>
-  <meta name="description" content="Säljande hemsidor och texter som gör att fler kunder ringer, beställer eller skickar offertförfrågan." />
+  <title>Fler Förfrågningar – få fler samtal & beställningar</title>
+  <meta name="description" content="Få fler samtal och beställningar från Google. Säljande hemsidor och tydliga texter som gör att kunder tar kontakt." />
   <link rel="stylesheet" href="styles.css" />
   <script defer src="script.js"></script>
 </head>
 
-<body>
+<body class="home">
   <header class="wrap header">
     <nav class="nav">
       <a class="logo" href="index.html">Fler Förfrågningar</a>
+
       <button class="burger" aria-label="Öppna meny" aria-expanded="false" aria-controls="menu">☰</button>
+
       <div id="menu" class="navlinks">
         <a class="active" href="index.html">Hem</a>
         <a href="exempel.html">Exempelsida</a>
-        <a href="statistik.html">Statistik & tidslinje</a>
-        <a class="nav-cta" href="#kontakt">Gratis genomgång</a>
+        <a href="statistik.html">Statistik</a>
+        <a class="nav-cta" href="index.html#kontakt">Gratis genomgång</a>
       </div>
     </nav>
+  </header>
 
-    <section class="hero">
+  <main class="wrap home-hero">
+    <section class="home-left">
       <p class="pill">Google → samtal → affärer • Fast pris • Snabb leverans</p>
 
       <h1>Får ni klick på Google men för få samtal och beställningar?</h1>
 
       <p class="lead">
-        Jag gör hemsidan mer säljande så fler kunder tar nästa steg:
+        Jag gör er hemsida mer säljande så fler kunder tar nästa steg:
         <strong>ringer</strong>, <strong>beställer</strong> eller <strong>skickar offertförfrågan</strong>.
       </p>
 
       <div class="cta">
-        <a class="btn" href="#kontakt">Få en gratis textgenomgång</a>
-        <a class="btn ghost" href="#paket">Se paket & priser</a>
+        <a class="btn" href="mailto:dinmail@exempel.se?subject=Gratis%20textgenomgång&body=Hej!%0A%0AFöretagsnamn:%0ABransch:%0AStad/område:%0ATjänster:%0AHemsida:%0AGoogle-profil (om ni har):%0A%0AVad vill ni öka? (samtal/offert/beställning):%0A">
+          Få en gratis textgenomgång
+        </a>
+        <a class="btn ghost" href="exempel.html">Se hur en sida ska se ut</a>
       </div>
 
-      <div class="trustline">
-        <span>✅ Tydlig struktur</span>
-        <span>✅ Förtroende som känns</span>
-        <span>✅ Enkel kontakt</span>
-      </div>
-    </section>
-  </header>
-
-  <main class="wrap">
-
-    <!-- Strukturen du vill ge kunder (checklista-stil) -->
-    <section class="section">
-      <div class="section-head">
-        <h2>Struktur som gör att en sida säljer</h2>
-        <p class="sub">
-          Kunden ska förstå på 10 sekunder: vad ni gör, var ni jobbar, varför ni – och hur man bokar.
-        </p>
+      <div class="quicklinks" aria-label="Snabblänkar">
+        <a class="ql" href="exempel.html">
+          <span class="ql-title">Mallen som säljer</span>
+          <span class="ql-sub">Upplägg, rubriker, sektioner</span>
+        </a>
+        <a class="ql" href="statistik.html">
+          <span class="ql-title">Statistik & tidslinje</span>
+          <span class="ql-sub">Hur kundbeteendet förändrats</span>
+        </a>
+        <a class="ql" href="index.html#kontakt" id="kontakt">
+          <span class="ql-title">Kontakta mig</span>
+          <span class="ql-sub">Svar inom 24 timmar</span>
+        </a>
       </div>
 
-      <div class="grid">
-        <div class="card">
-          <h3>1) Rubrik som känns igen</h3>
-          <p>Vi skriver så kunden känner igen sin situation – inte “Välkommen”.</p>
-        </div>
-        <div class="card">
-          <h3>2) Bevis tidigt</h3>
-          <p>Certifieringar, garanti, försäkring, referenser, bilder – tidigt på sidan.</p>
-        </div>
-        <div class="card">
-          <h3>3) Enkel kontakt</h3>
-          <p>Ring-knapp, offert-knapp och tydlig e-post. Kunden ska inte behöva leta.</p>
-        </div>
-        <div class="card">
-          <h3>4) Svar på invändningar</h3>
-          <p>Pris, tid, område, process. Säg det kunden undrar innan de frågar.</p>
-        </div>
-        <div class="card">
-          <h3>5) Lokalt språk</h3>
-          <p>“Vi jobbar i …” + exempel från verkligheten. Det skapar trygghet.</p>
-        </div>
-        <div class="card">
-          <h3>6) Tydligt nästa steg</h3>
-          <p>“Skicka adress + kort beskrivning → få offert idag.” Gör det enkelt.</p>
-        </div>
-      </div>
-
-      <div class="callout">
-        <p><strong>Poängen:</strong> Sälj händer ofta innan samtalet. Hemsidan är din första säljare.</p>
-      </div>
+      <p class="fine">Passar hantverkare och andra tjänsteföretag. Inga flufford – bara tydlighet och fler kontakter.</p>
     </section>
 
-    <!-- Vad du gör (kort, inte gröt) -->
-    <section class="section" id="tjanster">
-      <div class="section-head">
-        <h2>Det här hjälper jag er med</h2>
-        <p class="sub">Tre tydliga vägar – börja med det som ger mest effekt först.</p>
-      </div>
-
-      <div class="grid">
-        <div class="card">
-          <h3>Fixar texterna på befintlig sida</h3>
-          <p>Tydligare budskap + bättre struktur + enkel kontakt som leder till fler förfrågningar.</p>
-        </div>
-        <div class="card">
-          <h3>Bygger en ny säljande hemsida</h3>
-          <p>Modern, professionell och byggd för att kunden ska ringa eller skicka offert.</p>
-        </div>
-        <div class="card">
-          <h3>Tjänstesidor som skapar affärer</h3>
-          <p>En sida per viktig tjänst så ni blir tydliga och relevanta för kunden som söker.</p>
-        </div>
-      </div>
+    <section class="home-right" aria-label="Illustration">
+      <figure class="hero-figure">
+        <img
+          class="hero-image"
+          src="8e5d9026-4863-4734-96d6-04ad0cabd117.png"
+          alt="Två hantverkare: en frustrerad som väntar på samtal och en som jublar över nya kunder via Google."
+          loading="eager"
+        />
+        <figcaption class="fine">
+          Före/efter: från “telefonen ringer inte” till “kunder hör av sig”.
+        </figcaption>
+      </figure>
     </section>
-
-    <!-- Paket (luftigt och lätt att skanna) -->
-    <section class="section" id="paket">
-      <div class="section-head">
-        <h2>Paket & priser</h2>
-        <p class="sub">Fasta paket. Snabb leverans. Ni godkänner alltid innan publicering.</p>
-      </div>
-
-      <div class="grid">
-        <div class="card price">
-          <h3>Start: Fler förfrågningar</h3>
-          <p class="tag">2 500 kr</p>
-          <ul>
-            <li>Genomgång av startsida</li>
-            <li>Ny text + tydlig struktur</li>
-            <li>Kontaktväg: ring/offert/formulär</li>
-            <li>1 revisionsrunda</li>
-          </ul>
-          <p class="fine">För er som redan har en sida men vill att fler ska höra av sig.</p>
-        </div>
-
-        <div class="card price featured">
-          <h3>Tillväxt: Ny säljande hemsida</h3>
-          <p class="tag">5 900 kr</p>
-          <ul>
-            <li>Ny hemsida (1–3 sidor)</li>
-            <li>Text anpassad för erbjudande & område</li>
-            <li>Tydlig “ring/offert”-struktur</li>
-            <li>2 revisionsrundor</li>
-          </ul>
-          <p class="fine">För er som vill ha en sida som faktiskt säljer.</p>
-        </div>
-
-        <div class="card price">
-          <h3>Plus: Hemsida + tjänstesida</h3>
-          <p class="tag">7 900 kr</p>
-          <ul>
-            <li>Ny säljande hemsida</li>
-            <li>1 extra tjänstesida</li>
-            <li>Offert-/svarmallar</li>
-            <li>2 revisionsrundor</li>
-          </ul>
-          <p class="fine">För er som vill växla upp direkt.</p>
-        </div>
-      </div>
-
-      <div class="callout">
-        <p><strong>Obs:</strong> Jag lovar aldrig “#1 på Google”. Jag bygger en sida som gör att fler kunder tar kontakt.</p>
-      </div>
-    </section>
-
-    <!-- Kontakt (ren, inte mycket text) -->
-    <section class="section contact" id="kontakt">
-      <div class="section-head">
-        <h2>Få en gratis textgenomgång</h2>
-        <p class="sub">Skicka länk till hemsidan (och gärna Google-profil) – ni får 3 förbättringar inom 24 timmar.</p>
-      </div>
-
-      <!-- BYT MAILADRESSEN -->
-      <a class="btn"
-         href="mailto:dinmail@exempel.se?subject=Gratis%20textgenomgång&body=Hej!%0A%0AFöretagsnamn:%0ABransch:%0AStad/område:%0ATjänster:%0AHemsida:%0AGoogle-profil (om ni har):%0A%0AVad vill ni öka? (samtal/offert/beställning):%0A">
-        Skicka förfrågan via mejl
-      </a>
-
-      <div class="contact-box">
-        <p><strong>Tips:</strong> Skriv vad ni vill öka (samtal/offert/beställning) så anpassar jag förslagen.</p>
-      </div>
-    </section>
-
-    <footer class="footer">
-      <p>© <span id="year"></span> Fler Förfrågningar</p>
-    </footer>
   </main>
+
+  <footer class="wrap footer home-footer">
+    <p>© <span id="year"></span> Fler Förfrågningar</p>
+  </footer>
 </body>
 </html>
