@@ -4,82 +4,98 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Fler Förfrågningar – få fler samtal & beställningar</title>
-  <meta name="description" content="Få fler samtal och beställningar från Google. Säljande hemsidor och tydliga texter som gör att kunder tar kontakt." />
-<link rel="stylesheet" href="/Projekthome/styles.css?v=1">
-<script defer src="/Projekthome/script.js?v=1"></script>
+  <meta name="description" content="Mer tid över för jobbet. Jag bygger, optimerar och sköter hemsida, SEO och sociala medier så fler kunder hör av sig." />
 
-
+  <link rel="stylesheet" href="/Projekthome/styles.css?v=2">
+  <script defer src="/Projekthome/script.js?v=2"></script>
 </head>
 
-<body class="home">
+<body class="home home-noscroll">
   <header class="wrap header">
     <nav class="nav">
       <a class="logo" href="index.html">Fler Förfrågningar</a>
-
       <button class="burger" aria-label="Öppna meny" aria-expanded="false" aria-controls="menu">☰</button>
-
       <div id="menu" class="navlinks">
         <a class="active" href="index.html">Hem</a>
         <a href="exempel.html">Exempelsida</a>
         <a href="statistik.html">Statistik</a>
-        <a class="nav-cta" href="index.html#kontakt">Gratis genomgång</a>
+        <a class="nav-cta" href="mailto:dinmail@exempel.se?subject=Gratis%20genomgång&body=Hej!%0A%0AFöretagsnamn:%0AStad/område:%0ATjänst:%0AHemsida:%0A%0AVad vill ni få mer av? (samtal/offert/bokningar):%0A">Gratis genomgång</a>
       </div>
     </nav>
   </header>
 
-  <main class="wrap home-hero">
-    <section class="home-left">
-      <p class="pill">Google → samtal → affärer • Fast pris • Snabb leverans</p>
-
-      <h1>Får ni klick på Google men för få samtal och beställningar?</h1>
-
-      <p class="lead">
-        Jag gör er hemsida mer säljande så fler kunder tar nästa steg:
-        <strong>ringer</strong>, <strong>beställer</strong> eller <strong>skickar offertförfrågan</strong>.
-      </p>
-
-      <div class="cta">
-        <a class="btn" href="mailto:dinmail@exempel.se?subject=Gratis%20textgenomgång&body=Hej!%0A%0AFöretagsnamn:%0ABransch:%0AStad/område:%0ATjänster:%0AHemsida:%0AGoogle-profil (om ni har):%0A%0AVad vill ni öka? (samtal/offert/beställning):%0A">
-          Få en gratis textgenomgång
-        </a>
-        <a class="btn ghost" href="exempel.html">Se hur en sida ska se ut</a>
+  <main class="wrap home-main">
+    <section class="frame">
+      <!-- Rubrikruta (över kolumnerna) -->
+      <div class="tile tile-head">
+        <p class="pill">Google → samtal → affärer • Snabb leverans • Fast pris</p>
+        <h1>Mer tid över för riktigt hantverksjobb?</h1>
+        <p class="lead">
+          Jag fixar så ni får fler förfrågningar – och slipper krångla med hemsida, SEO och sociala medier.
+          <strong>Ni jobbar. Jag drar in kunder.</strong>
+        </p>
+        <div class="head-cta">
+          <a class="btn" href="mailto:dinmail@exempel.se?subject=Gratis%20genomgång&body=Hej!%0A%0AFöretagsnamn:%0AStad/område:%0ATjänst:%0AHemsida:%0A%0AVad vill ni få mer av? (samtal/offert/bokningar):%0A">Få gratis genomgång</a>
+          <a class="btn ghost" href="exempel.html">Se en säljande sida</a>
+        </div>
       </div>
 
-      <div class="quicklinks" aria-label="Snabblänkar">
-        <a class="ql" href="exempel.html">
-          <span class="ql-title">Mallen som säljer</span>
-          <span class="ql-sub">Upplägg, rubriker, sektioner</span>
-        </a>
-        <a class="ql" href="statistik.html">
-          <span class="ql-title">Statistik & tidslinje</span>
-          <span class="ql-sub">Hur kundbeteendet förändrats</span>
-        </a>
-        <a class="ql" href="index.html#kontakt" id="kontakt">
-          <span class="ql-title">Kontakta mig</span>
-          <span class="ql-sub">Svar inom 24 timmar</span>
-        </a>
+      <!-- 6 rutor (2 kolumner × 3 rader) -->
+      <div class="tiles">
+        <!-- VÄNSTER rad 1 -->
+        <div class="tile">
+          <h3>Telefonen ringer för lite?</h3>
+          <p>Jag gör sidan tydlig och säljig så folk fattar direkt: <strong>vad ni gör</strong>, <strong>vad det kostar</strong> och <strong>hur man bokar</strong>.</p>
+          <p class="mini">Kort sagt: mindre snack – fler beställningar.</p>
+        </div>
+
+        <!-- HÖGER rad 1 (BILD) -->
+        <div class="tile tile-image">
+          <img
+            src="8e5d9026-4863-4734-96d6-04ad0cabd117.png"
+            alt="En hantverkare frustrerad vid dator och telefon som aldrig ringer – och en annan som jublar över nya kunder via Google."
+            loading="eager"
+          />
+          <p class="mini">Före/efter: från “det händer inget” till “det trillar in kunder”.</p>
+        </div>
+
+        <!-- VÄNSTER rad 2 -->
+        <div class="tile">
+          <h3>Snabb leverans</h3>
+          <p>Inte “vi hörs om några veckor”. Jag jobbar snabbt – så ni kan börja få in förfrågningar fort.</p>
+          <p class="mini">Ni får en tydlig plan + leverans i tempo.</p>
+        </div>
+
+        <!-- HÖGER rad 2 -->
+        <div class="tile">
+          <h3>Fast pris, inget trams</h3>
+          <p>Ni får en tydlig deal. Inga timdebiteringar som springer iväg.</p>
+          <p class="mini">Ni vet vad ni betalar – innan vi börjar.</p>
+        </div>
+
+        <!-- VÄNSTER rad 3 -->
+        <div class="tile">
+          <h3>Jag sköter hela paketet</h3>
+          <p>Hemsida, texter, SEO och sociala medier – allt som gör att folk hittar er och hör av sig.</p>
+          <p class="mini">Ni slipper sitta kvällar vid datorn.</p>
+        </div>
+
+        <!-- HÖGER rad 3 -->
+        <div class="tile tile-cta">
+          <h3>Vill ni ha fler jobb?</h3>
+          <p>Skicka länk till hemsidan så får ni <strong>3 snabba förbättringar</strong> som ger mer samtal/offert.</p>
+          <div class="cta-row">
+            <a class="btn" href="mailto:dinmail@exempel.se?subject=Gratis%20genomgång&body=Hej!%0A%0AFöretagsnamn:%0AStad/område:%0ATjänst:%0AHemsida:%0A%0AVad vill ni få mer av? (samtal/offert/bokningar):%0A">Skicka länk</a>
+            <a class="btn ghost" href="statistik.html">Varför det funkar</a>
+          </div>
+          <p class="mini">Svar inom 24 timmar.</p>
+        </div>
       </div>
-
-      <p class="fine">Passar hantverkare och andra tjänsteföretag. Inga flufford – bara tydlighet och fler kontakter.</p>
     </section>
 
-    <section class="home-right" aria-label="Illustration">
-      <figure class="hero-figure">
-        <img
-          class="hero-image"
-          src="8e5d9026-4863-4734-96d6-04ad0cabd117.png"
-          alt="Två hantverkare: en frustrerad som väntar på samtal och en som jublar över nya kunder via Google."
-          loading="eager"
-        />
-        <figcaption class="fine">
-          Före/efter: från “telefonen ringer inte” till “kunder hör av sig”.
-        </figcaption>
-      </figure>
-    </section>
+    <footer class="footer home-footer">
+      <p>© <span id="year"></span> Fler Förfrågningar</p>
+    </footer>
   </main>
-
-  <footer class="wrap footer home-footer">
-    <p>© <span id="year"></span> Fler Förfrågningar</p>
-  </footer>
 </body>
 </html>
